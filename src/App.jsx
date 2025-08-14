@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <><Banner></Banner>,
+    <><Banner></Banner>
     <Skills></Skills>
     <Projects></Projects>
     </>

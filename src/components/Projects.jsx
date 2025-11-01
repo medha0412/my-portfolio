@@ -5,9 +5,9 @@ import even3 from "../assets/even3.png";
 import glow1 from "../assets/glow1.png";
 import glow2 from "../assets/glow2.png";
 import glow3 from "../assets/glow3.png";
-import ww1 from "../assets/dashimg.png";
-import ww2 from "../assets/fullitiimg.png";
-import ww3 from "../assets/hotelimg.png";
+import wayora from "../assets/wayora.png";
+import wayora2 from "../assets/wayora2.png";
+import wayora3 from "../assets/wayora3.png";
 
 const Projects = () => {
   const [currentCard, setCurrentCard] = useState(0);
@@ -16,7 +16,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Wonder Weave",
+      title: "WayOra",
       features: [
         "Smart itinerary builder with drag-and-drop functionality",
         "Real-time flight & hotel price comparison across multiple providers", 
@@ -32,9 +32,9 @@ const Projects = () => {
         "Express",
         "Node.js",
       ],
-      screenshots: [ww1, ww2, ww3],
-      github: "https://github.com/medha0412/Wonder-Weave", 
-      live: "https://wonder-weave.netlify.app/", 
+      screenshots: [wayora, wayora2, wayora3],
+      github: "https://github.com/medha0412/WayOra.git", 
+      live: "https://wayora.netlify.app/", 
     },
     {
       id: 2,

@@ -52,7 +52,7 @@ export function Banner() {
             <FaEnvelope />
           </a>
           <a
-            href="/Medha_Pant_Resume.pdf"
+            href="/Medha_Pant Resume.pdf"
             target="_blank"
             className="text-white hover:text-blue-400 relative inline border-b-2 pb-1 border-white transition-colors hover:scale-125 duration-300 text-base sm:text-lg -mt-1 pt-1"
           >
